@@ -1,0 +1,10 @@
+/home/nocoder/chat/chatservers/build/CMakeFiles/rebuild_cache.dir
+/home/nocoder/chat/chatservers/build/CMakeFiles/edit_cache.dir
+/home/nocoder/chat/chatservers/build/src/CMakeFiles/rebuild_cache.dir
+/home/nocoder/chat/chatservers/build/src/CMakeFiles/edit_cache.dir
+/home/nocoder/chat/chatservers/build/src/server/CMakeFiles/rebuild_cache.dir
+/home/nocoder/chat/chatservers/build/src/server/CMakeFiles/edit_cache.dir
+/home/nocoder/chat/chatservers/build/src/server/CMakeFiles/Chatserver.dir
+/home/nocoder/chat/chatservers/build/src/server/client/CMakeFiles/rebuild_cache.dir
+/home/nocoder/chat/chatservers/build/src/server/client/CMakeFiles/edit_cache.dir
+/home/nocoder/chat/chatservers/build/src/server/client/CMakeFiles/ChatClient.dir
