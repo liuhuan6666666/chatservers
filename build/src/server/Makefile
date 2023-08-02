@@ -179,32 +179,32 @@ chatservice.cpp.s:
 	cd /home/nocoder/chat/chatservers/build && $(MAKE) -f src/server/CMakeFiles/Chatserver.dir/build.make src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.s
 .PHONY : chatservice.cpp.s
 
-db/db.o: db/db.cpp.o
+db/sqlconnpool.o: db/sqlconnpool.cpp.o
 
-.PHONY : db/db.o
+.PHONY : db/sqlconnpool.o
 
 # target to build an object file
-db/db.cpp.o:
-	cd /home/nocoder/chat/chatservers/build && $(MAKE) -f src/server/CMakeFiles/Chatserver.dir/build.make src/server/CMakeFiles/Chatserver.dir/db/db.cpp.o
-.PHONY : db/db.cpp.o
+db/sqlconnpool.cpp.o:
+	cd /home/nocoder/chat/chatservers/build && $(MAKE) -f src/server/CMakeFiles/Chatserver.dir/build.make src/server/CMakeFiles/Chatserver.dir/db/sqlconnpool.cpp.o
+.PHONY : db/sqlconnpool.cpp.o
 
-db/db.i: db/db.cpp.i
+db/sqlconnpool.i: db/sqlconnpool.cpp.i
 
-.PHONY : db/db.i
+.PHONY : db/sqlconnpool.i
 
 # target to preprocess a source file
-db/db.cpp.i:
-	cd /home/nocoder/chat/chatservers/build && $(MAKE) -f src/server/CMakeFiles/Chatserver.dir/build.make src/server/CMakeFiles/Chatserver.dir/db/db.cpp.i
-.PHONY : db/db.cpp.i
+db/sqlconnpool.cpp.i:
+	cd /home/nocoder/chat/chatservers/build && $(MAKE) -f src/server/CMakeFiles/Chatserver.dir/build.make src/server/CMakeFiles/Chatserver.dir/db/sqlconnpool.cpp.i
+.PHONY : db/sqlconnpool.cpp.i
 
-db/db.s: db/db.cpp.s
+db/sqlconnpool.s: db/sqlconnpool.cpp.s
 
-.PHONY : db/db.s
+.PHONY : db/sqlconnpool.s
 
 # target to generate assembly for a file
-db/db.cpp.s:
-	cd /home/nocoder/chat/chatservers/build && $(MAKE) -f src/server/CMakeFiles/Chatserver.dir/build.make src/server/CMakeFiles/Chatserver.dir/db/db.cpp.s
-.PHONY : db/db.cpp.s
+db/sqlconnpool.cpp.s:
+	cd /home/nocoder/chat/chatservers/build && $(MAKE) -f src/server/CMakeFiles/Chatserver.dir/build.make src/server/CMakeFiles/Chatserver.dir/db/sqlconnpool.cpp.s
+.PHONY : db/sqlconnpool.cpp.s
 
 main.o: main.cpp.o
 
@@ -383,9 +383,9 @@ help:
 	@echo "... chatservice.o"
 	@echo "... chatservice.i"
 	@echo "... chatservice.s"
-	@echo "... db/db.o"
-	@echo "... db/db.i"
-	@echo "... db/db.s"
+	@echo "... db/sqlconnpool.o"
+	@echo "... db/sqlconnpool.i"
+	@echo "... db/sqlconnpool.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

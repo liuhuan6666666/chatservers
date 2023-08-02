@@ -3,6 +3,8 @@
 
 src/server/CMakeFiles/Chatserver.dir/chatserver.cpp.o: ../include/server/chatserver.hpp
 src/server/CMakeFiles/Chatserver.dir/chatserver.cpp.o: ../include/server/chatservice.hpp
+src/server/CMakeFiles/Chatserver.dir/chatserver.cpp.o: ../include/server/db/sqlconnRALL.hpp
+src/server/CMakeFiles/Chatserver.dir/chatserver.cpp.o: ../include/server/db/sqlconnpool.hpp
 src/server/CMakeFiles/Chatserver.dir/chatserver.cpp.o: ../include/server/model/UserModel.hpp
 src/server/CMakeFiles/Chatserver.dir/chatserver.cpp.o: ../include/server/model/friendmodel.hpp
 src/server/CMakeFiles/Chatserver.dir/chatserver.cpp.o: ../include/server/model/group.hpp
@@ -16,6 +18,8 @@ src/server/CMakeFiles/Chatserver.dir/chatserver.cpp.o: ../thirdparty/json.hpp
 
 src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.o: ../include/public.hpp
 src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.o: ../include/server/chatservice.hpp
+src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.o: ../include/server/db/sqlconnRALL.hpp
+src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.o: ../include/server/db/sqlconnpool.hpp
 src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.o: ../include/server/model/UserModel.hpp
 src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.o: ../include/server/model/friendmodel.hpp
 src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.o: ../include/server/model/group.hpp
@@ -27,11 +31,13 @@ src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.o: ../include/server/redis/
 src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.o: ../src/server/chatservice.cpp
 src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.o: ../thirdparty/json.hpp
 
-src/server/CMakeFiles/Chatserver.dir/db/db.cpp.o: ../include/server/db/db.h
-src/server/CMakeFiles/Chatserver.dir/db/db.cpp.o: ../src/server/db/db.cpp
+src/server/CMakeFiles/Chatserver.dir/db/sqlconnpool.cpp.o: ../include/server/db/sqlconnpool.hpp
+src/server/CMakeFiles/Chatserver.dir/db/sqlconnpool.cpp.o: ../src/server/db/sqlconnpool.cpp
 
 src/server/CMakeFiles/Chatserver.dir/main.cpp.o: ../include/server/chatserver.hpp
 src/server/CMakeFiles/Chatserver.dir/main.cpp.o: ../include/server/chatservice.hpp
+src/server/CMakeFiles/Chatserver.dir/main.cpp.o: ../include/server/db/sqlconnRALL.hpp
+src/server/CMakeFiles/Chatserver.dir/main.cpp.o: ../include/server/db/sqlconnpool.hpp
 src/server/CMakeFiles/Chatserver.dir/main.cpp.o: ../include/server/model/UserModel.hpp
 src/server/CMakeFiles/Chatserver.dir/main.cpp.o: ../include/server/model/friendmodel.hpp
 src/server/CMakeFiles/Chatserver.dir/main.cpp.o: ../include/server/model/group.hpp
@@ -43,24 +49,28 @@ src/server/CMakeFiles/Chatserver.dir/main.cpp.o: ../include/server/redis/redis.h
 src/server/CMakeFiles/Chatserver.dir/main.cpp.o: ../src/server/main.cpp
 src/server/CMakeFiles/Chatserver.dir/main.cpp.o: ../thirdparty/json.hpp
 
-src/server/CMakeFiles/Chatserver.dir/model/friengmodel.cpp.o: ../include/server/db/db.h
+src/server/CMakeFiles/Chatserver.dir/model/friengmodel.cpp.o: ../include/server/db/sqlconnRALL.hpp
+src/server/CMakeFiles/Chatserver.dir/model/friengmodel.cpp.o: ../include/server/db/sqlconnpool.hpp
 src/server/CMakeFiles/Chatserver.dir/model/friengmodel.cpp.o: ../include/server/model/UserModel.hpp
 src/server/CMakeFiles/Chatserver.dir/model/friengmodel.cpp.o: ../include/server/model/friendmodel.hpp
 src/server/CMakeFiles/Chatserver.dir/model/friengmodel.cpp.o: ../include/server/model/user.hpp
 src/server/CMakeFiles/Chatserver.dir/model/friengmodel.cpp.o: ../src/server/model/friengmodel.cpp
 
-src/server/CMakeFiles/Chatserver.dir/model/groupmodel.cpp.o: ../include/server/db/db.h
+src/server/CMakeFiles/Chatserver.dir/model/groupmodel.cpp.o: ../include/server/db/sqlconnRALL.hpp
+src/server/CMakeFiles/Chatserver.dir/model/groupmodel.cpp.o: ../include/server/db/sqlconnpool.hpp
 src/server/CMakeFiles/Chatserver.dir/model/groupmodel.cpp.o: ../include/server/model/group.hpp
 src/server/CMakeFiles/Chatserver.dir/model/groupmodel.cpp.o: ../include/server/model/groupmodel.hpp
 src/server/CMakeFiles/Chatserver.dir/model/groupmodel.cpp.o: ../include/server/model/groupuser.hpp
 src/server/CMakeFiles/Chatserver.dir/model/groupmodel.cpp.o: ../include/server/model/user.hpp
 src/server/CMakeFiles/Chatserver.dir/model/groupmodel.cpp.o: ../src/server/model/groupmodel.cpp
 
-src/server/CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.o: ../include/server/db/db.h
+src/server/CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.o: ../include/server/db/sqlconnRALL.hpp
+src/server/CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.o: ../include/server/db/sqlconnpool.hpp
 src/server/CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.o: ../include/server/model/offlinemessagemodel.hpp
 src/server/CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.o: ../src/server/model/offlinemessagemodel.cpp
 
-src/server/CMakeFiles/Chatserver.dir/model/usermodel.cpp.o: ../include/server/db/db.h
+src/server/CMakeFiles/Chatserver.dir/model/usermodel.cpp.o: ../include/server/db/sqlconnRALL.hpp
+src/server/CMakeFiles/Chatserver.dir/model/usermodel.cpp.o: ../include/server/db/sqlconnpool.hpp
 src/server/CMakeFiles/Chatserver.dir/model/usermodel.cpp.o: ../include/server/model/UserModel.hpp
 src/server/CMakeFiles/Chatserver.dir/model/usermodel.cpp.o: ../include/server/model/user.hpp
 src/server/CMakeFiles/Chatserver.dir/model/usermodel.cpp.o: ../src/server/model/usermodel.cpp

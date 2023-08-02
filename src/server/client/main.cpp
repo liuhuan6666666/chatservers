@@ -84,7 +84,7 @@ int main(int argc, char **argv)
         exit(-1);
     }
 
-    // 初始化读写线程通信用的信号量,利用信号量控制主线程的运行
+    // 初始化读写线程通信用的信号量,利用信号量控制主线程的运行   当信号量值为0时，会堵塞，wait:-1,port:+1
     sem_init(&rwsem, 0, 0);
 
     // 连接服务器成功，启动接收子线程  读写服务器返回的信息  ，该线程只需要启动一次
@@ -200,7 +200,7 @@ void doLoginResponse(json &responsejs)
         cerr << responsejs["errmsg"] << endl;
         g_isLoginSuccess = false;
     }
-    else // 登录成功
+    else // 登录成功 
     {
         // 记录当前用户的id和name
         g_currentUser.setId(responsejs["id"].get<int>());

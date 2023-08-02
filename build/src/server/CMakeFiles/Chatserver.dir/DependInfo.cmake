@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/nocoder/chat/chatservers/src/server/chatserver.cpp" "/home/nocoder/chat/chatservers/build/src/server/CMakeFiles/Chatserver.dir/chatserver.cpp.o"
   "/home/nocoder/chat/chatservers/src/server/chatservice.cpp" "/home/nocoder/chat/chatservers/build/src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.o"
-  "/home/nocoder/chat/chatservers/src/server/db/db.cpp" "/home/nocoder/chat/chatservers/build/src/server/CMakeFiles/Chatserver.dir/db/db.cpp.o"
+  "/home/nocoder/chat/chatservers/src/server/db/sqlconnpool.cpp" "/home/nocoder/chat/chatservers/build/src/server/CMakeFiles/Chatserver.dir/db/sqlconnpool.cpp.o"
   "/home/nocoder/chat/chatservers/src/server/main.cpp" "/home/nocoder/chat/chatservers/build/src/server/CMakeFiles/Chatserver.dir/main.cpp.o"
   "/home/nocoder/chat/chatservers/src/server/model/friengmodel.cpp" "/home/nocoder/chat/chatservers/build/src/server/CMakeFiles/Chatserver.dir/model/friengmodel.cpp.o"
   "/home/nocoder/chat/chatservers/src/server/model/groupmodel.cpp" "/home/nocoder/chat/chatservers/build/src/server/CMakeFiles/Chatserver.dir/model/groupmodel.cpp.o"

@@ -24,6 +24,7 @@ Chatservice::Chatservice()
     _msgHandlerMap[ADD_GROUP_MSG] = std::bind(&Chatservice::addGroupuser, this, _1, _2, _3);
     _msgHandlerMap[GROUP_CHAT_MSG] = std::bind(&Chatservice::groupchat, this, _1, _2, _3);
     _msgHandlerMap[LOGINOUT_MSG] = std::bind(&Chatservice::loginout, this, _1, _2, _3);
+    SqlConnPool::Instance()->Init(10);
     if (_redis.connect())
     {
         // 设置上报消息的回调

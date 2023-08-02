@@ -96,18 +96,18 @@ src/server/CMakeFiles/Chatserver.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chatserver.dir/main.cpp.s"
 	cd /home/nocoder/chat/chatservers/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nocoder/chat/chatservers/src/server/main.cpp -o CMakeFiles/Chatserver.dir/main.cpp.s
 
-src/server/CMakeFiles/Chatserver.dir/db/db.cpp.o: src/server/CMakeFiles/Chatserver.dir/flags.make
-src/server/CMakeFiles/Chatserver.dir/db/db.cpp.o: ../src/server/db/db.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nocoder/chat/chatservers/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/server/CMakeFiles/Chatserver.dir/db/db.cpp.o"
-	cd /home/nocoder/chat/chatservers/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chatserver.dir/db/db.cpp.o -c /home/nocoder/chat/chatservers/src/server/db/db.cpp
+src/server/CMakeFiles/Chatserver.dir/db/sqlconnpool.cpp.o: src/server/CMakeFiles/Chatserver.dir/flags.make
+src/server/CMakeFiles/Chatserver.dir/db/sqlconnpool.cpp.o: ../src/server/db/sqlconnpool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nocoder/chat/chatservers/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/server/CMakeFiles/Chatserver.dir/db/sqlconnpool.cpp.o"
+	cd /home/nocoder/chat/chatservers/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chatserver.dir/db/sqlconnpool.cpp.o -c /home/nocoder/chat/chatservers/src/server/db/sqlconnpool.cpp
 
-src/server/CMakeFiles/Chatserver.dir/db/db.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chatserver.dir/db/db.cpp.i"
-	cd /home/nocoder/chat/chatservers/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nocoder/chat/chatservers/src/server/db/db.cpp > CMakeFiles/Chatserver.dir/db/db.cpp.i
+src/server/CMakeFiles/Chatserver.dir/db/sqlconnpool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chatserver.dir/db/sqlconnpool.cpp.i"
+	cd /home/nocoder/chat/chatservers/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nocoder/chat/chatservers/src/server/db/sqlconnpool.cpp > CMakeFiles/Chatserver.dir/db/sqlconnpool.cpp.i
 
-src/server/CMakeFiles/Chatserver.dir/db/db.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chatserver.dir/db/db.cpp.s"
-	cd /home/nocoder/chat/chatservers/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nocoder/chat/chatservers/src/server/db/db.cpp -o CMakeFiles/Chatserver.dir/db/db.cpp.s
+src/server/CMakeFiles/Chatserver.dir/db/sqlconnpool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chatserver.dir/db/sqlconnpool.cpp.s"
+	cd /home/nocoder/chat/chatservers/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nocoder/chat/chatservers/src/server/db/sqlconnpool.cpp -o CMakeFiles/Chatserver.dir/db/sqlconnpool.cpp.s
 
 src/server/CMakeFiles/Chatserver.dir/model/friengmodel.cpp.o: src/server/CMakeFiles/Chatserver.dir/flags.make
 src/server/CMakeFiles/Chatserver.dir/model/friengmodel.cpp.o: ../src/server/model/friengmodel.cpp
@@ -179,7 +179,7 @@ Chatserver_OBJECTS = \
 "CMakeFiles/Chatserver.dir/chatserver.cpp.o" \
 "CMakeFiles/Chatserver.dir/chatservice.cpp.o" \
 "CMakeFiles/Chatserver.dir/main.cpp.o" \
-"CMakeFiles/Chatserver.dir/db/db.cpp.o" \
+"CMakeFiles/Chatserver.dir/db/sqlconnpool.cpp.o" \
 "CMakeFiles/Chatserver.dir/model/friengmodel.cpp.o" \
 "CMakeFiles/Chatserver.dir/model/groupmodel.cpp.o" \
 "CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.o" \
@@ -192,7 +192,7 @@ Chatserver_EXTERNAL_OBJECTS =
 ../bin/Chatserver: src/server/CMakeFiles/Chatserver.dir/chatserver.cpp.o
 ../bin/Chatserver: src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.o
 ../bin/Chatserver: src/server/CMakeFiles/Chatserver.dir/main.cpp.o
-../bin/Chatserver: src/server/CMakeFiles/Chatserver.dir/db/db.cpp.o
+../bin/Chatserver: src/server/CMakeFiles/Chatserver.dir/db/sqlconnpool.cpp.o
 ../bin/Chatserver: src/server/CMakeFiles/Chatserver.dir/model/friengmodel.cpp.o
 ../bin/Chatserver: src/server/CMakeFiles/Chatserver.dir/model/groupmodel.cpp.o
 ../bin/Chatserver: src/server/CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.o
